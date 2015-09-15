@@ -218,3 +218,9 @@ button.margenTextbox{
 .opcionSeleccionada{
 	background: rgba(128, 128, 128, 0.43);
 }
+.btn-seleccionado{
+	margin-top: -4px;
+	background-color: #259216;
+    color: white;
+}	
+
