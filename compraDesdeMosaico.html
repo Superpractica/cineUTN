@@ -19,8 +19,8 @@
             <div class="logo">
                 <img src="assets/img/UTNCineLogo.png">
                 <div class="cuentaUser pull-right">
-                    <a href="#">
-                        ENTRAR A MI CUENTAa
+                    <a data-toggle="modal" href="#modalLogin">
+                        ENTRAR A MI CUENTA
                       <img src="assets/img/Next-64.png"><br>
                       <span>¿No tenes usuario? | Crear Usuario </span>
                     </a>
@@ -31,16 +31,7 @@
                     <a href="">Home</a>
                 </li>
                 <li class="itemMenu">
-                    <a href="">Cartelera de Cines</a>
-                </li>
-                <li class="itemMenu">
                     <a href="">Cines</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="">Horarios</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="">Promociones</a>
                 </li>
                 <li class="itemMenu">
                     <a href="">Precios</a>
@@ -119,7 +110,7 @@
 					  <li role="presentation" class="active"><a>Horario</a></li>
 					  <li role="presentation"><a href="#">15:00</a></li>
 					  <li class="opcionSeleccionada">
-						<a  href="#">17:00 <button class="btn btn-default btn-sm pull-right btn-seleccionado" >Comprar</button></a>
+						<a data-toggle="modal" href="#modalLogin">17:00 <button class="btn btn-default btn-sm pull-right btn-seleccionado" >Comprar</button></a>
 						
 				      </li>
 					</ul>
@@ -129,7 +120,41 @@
     </div>
     <div class="row footer">
         <span> Baduel, Nicolas - Carratelli, Andres - García Massaferro, Patricio - UTN Practica Supervisada - Copyright © 2015</span>
-    </div>      
+    </div> 
+	<!-- Modal de login-->
+	
+	<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myModalLabel">Ingresar a tu Cuenta</h4>
+		  </div>
+		  <div class="modal-body">
+			<form method="post" action='' name="login_form">
+				<div style="margin-bottom: 25px" class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Usuario">                                        
+				</div>            
+				<div style="margin-bottom: 25px" class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="login-password" type="password" class="form-control" name="password" placeholder="password">
+				</div>
+			 
+			  
+			  <p><button type="submit" class="btn btn-primary">Entrar</button>
+				<a href="#">Olvidaste tu Contraseña?</a>
+			  </p>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>	
+	
+	
 </body>
     
     <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
