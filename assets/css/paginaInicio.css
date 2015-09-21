@@ -225,4 +225,17 @@ button.margenTextbox{
 .divBotonButacas{
 	height: 57px;
 }
+#qrCode {
+	text-align:center;
+}
+.confirmarOperacion .row {
+	text-align:center;
+}
+#tablaResumenCompra table{
+	max-width:50%;
+	margin: auto;
+	text-align:center;
+}
+
+
 
