@@ -54,30 +54,72 @@
 <div class="row detallesPelicula">
 			<div class="col-md-6">
 				<div class="titulo">					
-                    <input id="Text7" type="text" style="color:black;" value=".:TITULO DE PELICULA:."/>
+                    <input id="Text7" type="text" class="form-control" placeholder=".:TITULO DE PELICULA:."/>
 				</div>
 				<div class="imagenPelicula">
 					<img src="assets/img/UTNCineLogo.png">
 				</div>
 				<div>
-					<div class="descripcionPelicula">
-						<input id="Text6" type="text" style="width:50%;" value=".:INGRESE IMAGEN DE LA PELICULA:."/>
-						<br />
-						<input id="Button1" type="button" value="Browse" />
+					<div class="input-group">
+					  <input type="text" class="form-control" placeholder=".:INGRESE IMAGEN DE LA PELICULA:.">
+					  <span class="input-group-btn">
+						<button class="btn btn-default" type="button">Browse</button>
+					  </span>
 					</div>
+					
+					<div>
+						<textarea class="form-control" rows="3" placeholder=".:SINOPSIS:."></textarea>
+					</div>
+					
 					<div class="fichaTecnica">
-						<div>
-							<ins>Ficha técnica</ins>
-						</div>
-						<p>
-                            
-							Genero: <input id="Text1" type="text" value=".:INDIQUE GENERO:."/><br>
-							Duración: <input id="Text2" type="text" value=".:INDIQUE DURACION:. "/> <br>
-							Actores: <input id="Text3" type="text" value=".:INDIQUE ACTORES:."/><br>
-							Director: <input id="Text4" type="text" value=".:INDIQUE DIRECTOR:."/><br>
-							Clasificación: <input id="Text5" type="text" value=".:INDIQUE CLASIFICACION:."/><br> 
-							  <br>
-						</p>
+						<form>
+						<table class="table">
+							<tbody>
+								<span>Ficha técnica </span>
+								<tr>
+									<th>
+										<span>Genero: </span>
+									</th>
+									<TH>
+										<input type="text" class="form-control" placeholder=".:INDIQUE GENERO:." aria-describedby="sizing-addon3">
+									</TH>
+								</tr>
+								<tr>
+									<th>
+										<span>Duracion: </span>
+									</th>
+									<TH>
+										<input type="text" class="form-control" placeholder=".:INDIQUE DURACION:." aria-describedby="sizing-addon3">
+									</TH>
+								</tr>
+								<tr>
+									<th>
+										<span>Actores: </span>
+									</th>
+									<TH>
+										<input type="text" class="form-control" placeholder=".:INDIQUE ACTORES:." aria-describedby="sizing-addon3">
+									</TH>
+								</tr>
+								<tr>
+									<th>
+										<span>Director: </span>
+									</th>
+									<TH>
+										<input type="text" class="form-control" placeholder=".:INDIQUE DIRECTOR:." aria-describedby="sizing-addon3">
+									</TH>
+								</tr>
+								<tr>
+									<th>
+										<span>Clasificación: </span>
+									</th>
+									<TH>
+										<input type="text" class="form-control" placeholder=".:INDIQUE CLASIFICACION:." aria-describedby="sizing-addon3">
+									</TH>
+								</tr>
+							</tbody>
+						</table>
+						<button type="submit" class="btn btn-default">Guardar</button>
+						</form>						
 					</div>
                     
 				</div>
@@ -85,19 +127,17 @@
 			<div class="col-md-6">	
 		
 				  <img style="width:250px; height:250px;"  src="assets/img/trailer.jpg" />
-                <br /><input id="Text8" type="text" style="width:50%;" value=".:INGRESE TRAILER DE LA PELICULA:."/><br /><input id="Button2" type="button" value="Browse" />
+                <br /><input id="Text8" type="text" class="form-control" PLACEHOLDER=".:INGRESE URL DEL TRAILER DE LA PELICULA:."/><br />
 
 			</div>   
        </div>
-       <div class="row">
-           <input id="Button3" type="button" value="Guardar" />
-       </div>     
+       
 	 
-	 
+		 <div class="row footer">
+			<span> Baduel, Nicolas - Carratelli, Andres - García Massaferro, Patricio - UTN Practica Supervisada - Copyright © 2015</span>
+		</div> 
     </div>
-    <div class="row footer">
-        <span> Baduel, Nicolas - Carratelli, Andres - García Massaferro, Patricio - UTN Practica Supervisada - Copyright © 2015</span>
-    </div>      
+         
 </body>
     
     <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
