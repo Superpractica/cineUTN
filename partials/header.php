@@ -17,7 +17,6 @@
         <![endif]-->
 </head>
     <body>
-        <div id="fondo">
     <div class="container">
         <div class="row tituloPagina"> 
             <div class="logo">
