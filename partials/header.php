@@ -34,6 +34,7 @@
             </div>
             <ul class="tituloMenu" >
                 <li class="itemMenu">
+<<<<<<< HEAD
                     <a href="index.php">Home</a>
                 </li>
                 <li class="itemMenu">
@@ -44,6 +45,18 @@
                 </li>
                 <li class="itemMenu">
                     <a href="formatos.php">Formatos</a>
+=======
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="cines.html">Cines</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="precios.html">Precios</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="formatos.html">Formatos</a>
+>>>>>>> origin/master
                 </li>
             </ul>
         </div>
