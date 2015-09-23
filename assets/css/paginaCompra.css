@@ -46,7 +46,6 @@
 }
 
 .tablaTitulo{
-	font-family: HelveticaNeueLtCond;
     color: #2B6CAF;
     font-size: 20px;
     font-weight: bold;
@@ -58,12 +57,27 @@
 	width: 40%;
 }	
 
+.columnaEntradas img{
+	margin-left: 5%;
+	margin-right: 10px;
+}	
+
+thead tr th{
+	text-align:  center;
+}
+
+.comboCantidad{
+	width: 70px;
+	margin-left: 35%;
+}
+
 .columnaCantidad{
 	width: 20%;
 }
 
 .columnaPrecio{
-	width: 20%;
+	width: 10%;
+	text-align: center;
 }
 
 .filaImpar{
@@ -103,7 +117,6 @@
 
 .confirmarOperacion{
 	background-color: white;
-	margin-bottom: 10px;
 	
 }
 
@@ -126,6 +139,7 @@
 	background-color: #86bc26;
 	border-color: #86bc26;
 	margin-bottom: 10px;
+	margin-right: 20px;
 }
 
 .select-Fecha{
@@ -137,4 +151,8 @@
 .input-datosCompra{
 	width: 70%;
 	display: inline-block;
+}
+
+.centrar{
+	text-align: center;
 }
