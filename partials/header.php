@@ -34,6 +34,10 @@
             </div>
             <ul class="tituloMenu" >
                 <li class="itemMenu">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
                     <a href="index.php">Home</a>
                 </li>
                 <li class="itemMenu">
@@ -44,6 +48,21 @@
                 </li>
                 <li class="itemMenu">
                     <a href="formatos.php">Formatos</a>
+<<<<<<< HEAD
+=======
+=======
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="cines.html">Cines</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="precios.html">Precios</a>
+                </li>
+                <li class="itemMenu">
+                    <a href="formatos.html">Formatos</a>
+>>>>>>> origin/master
+>>>>>>> origin/master
                 </li>
             </ul>
         </div>

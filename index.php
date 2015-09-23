@@ -25,7 +25,11 @@
             <div class="col-md-12 contenedorPeliculas">
                 <img class="pelicula" src="assets/img/pelicula1.jpg">
                 <img class="pelicula" src="assets/img/pelicula2.jpg">
+<<<<<<< HEAD
 				<a href="compraDesdeMosaico.php">
+=======
+				<a href="compraDesdeMosaico.html">
+>>>>>>> origin/master
 					<img class="pelicula" src="assets/img/pelicula3.jpg">
 				</a>
                 
