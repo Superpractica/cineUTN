@@ -1,46 +1,5 @@
-<html class="no-js" lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>UTN Cine</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/paginaInicio.css">
-         <link rel="stylesheet" href="assets/css/paginaCompra.css">
-        <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
-        <![endif]-->
-</head>
-    <body>
-    <div class="container">
-        <div class="row tituloPagina"> 
-            <div class="logo">
-                <img src="assets/img/UTNCineLogo.png">
-                <div class="cuentaUser pull-right">
-                    <a href="#">
-                        ENTRAR A MI CUENTA
-                      <img src="assets/img/Next-64.png"><br>
-                      <span>¿No tenes usuario? | Crear Usuario </span>
-                    </a>
-                </div>
-            </div>
-            <ul class="tituloMenu" >
-                <li class="itemMenu">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="cines.html">Cines</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="precios.html">Precios</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="formatos.html">Formatos</a>
-                </li>
-            </ul>
-        </div>
+<?php require("partials/header.php"); ?>
+
        <div class="row paginaCompra">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 path">
                <div>EL CLAN CASTELLANO (P16)</div>
@@ -100,6 +59,7 @@
                             </th class="columnaCantidad">
                             <th>
                                 <select name="" id="" class="form-control comboCantidad">
+                                    <option value="0">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -119,6 +79,7 @@
                             </th>
                             <th class="columnaCantidad">
                                 <select name="" id="" class="form-control comboCantidad">
+                                    <option value="0">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -136,6 +97,7 @@
                             </th>
                             <th class="columnaCantidad">
                                 <select name="" id="" class="form-control comboCantidad">
+                                    <option value="0">0</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -150,18 +112,13 @@
                 </table>
             </div>
            <div class="sombra ">
-                <button type="button" onclick="location.href='ventaButacas.html';" class="btn btn-success btn-Confirmar pull-right">SIGUIENTE</button> 
+                <button type="button" onclick="location.href='ventaButacas.php';" class="btn btn-success btn-Confirmar pull-right">SIGUIENTE</button> 
            </div>
-		   
-        </div>
-		<div class="row footer">
-				<span> Baduel, Nicolas - Carratelli, Andres - García Massaferro, Patricio - UTN Practica Supervisada - Copyright © 2015</span>
-			</div>
-    </div>
-          
-</body>
-    
-    <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+		</div>
 
-</html>
+ <?php require("partials/footer.php"); ?>
+          
+<link rel="stylesheet" href="assets/css/paginaCompra.css"> 
+<script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+

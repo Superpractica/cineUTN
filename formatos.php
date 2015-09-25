@@ -1,47 +1,5 @@
-<html class="no-js" lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>UTN Cine</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/paginaInicio.css">
-        <link rel="stylesheet" href="assets/css/formatos.css">
-        
-        <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
-        <![endif]-->
-</head>
-    <body>
-    <div class="container">
-        <div class="row tituloPagina"> 
-            <div class="logo">
-                <img src="assets/img/UTNCineLogo.png">
-                <div class="cuentaUser pull-right">
-                    <a href="#">
-                        ENTRAR A MI CUENTA
-                      <img src="assets/img/Next-64.png"><br>
-                      <span>¿No tenes usuario? | Crear Usuario </span>
-                    </a>
-                </div>
-            </div>
-            <ul class="tituloMenu" >
-                <li class="itemMenu">
-                    <a href="index.html">Home</a>
-                </li>               
-                <li class="itemMenu">
-                    <a href="cines.html">Cines</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="precios.html">Precios</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="formatos.html">Formatos</a>
-                </li>
-            </ul>
-        </div>
+<?php require("partials/header.php"); ?>
+
         <div class="row formatos">
             <h2 class="titulo">Nuestros Formatos</h2>     
             <div class="formato">
@@ -82,13 +40,10 @@
                 </div>   
             </div>  
         </div>
-    </div>
-    <div class="row footer">
-        <span> Baduel, Nicolas - Carratelli, Andres - García Massaferro, Patricio - UTN Practica Supervisada - Copyright © 2015</span>
-    </div>      
-</body>
-    
-    <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-</html>
+  <?php require("partials/footer.php"); ?>
+
+<link rel="stylesheet" href="assets/css/formatos.css">
+<script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="assets/js/vendor/bootstrap.min.js"></script>
+

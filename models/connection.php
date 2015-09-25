@@ -19,12 +19,12 @@ class Connection extends MySQLi {
      }
 }
 
-class ConnectionTwitter extends MySQLi {
+class ConnectionCine extends MySQLi {
      private static $instance = null ;
      const HOST = 'localhost';
      const USER = 'root';
      const PASSWORD = 'mantis';       
-     const DATABASE = 'twitter';
+     const DATABASE = 'utncine';
          
      private function __construct($host, $user, $password, $database){ 
          parent::__construct($host, $user, $password, $database);
